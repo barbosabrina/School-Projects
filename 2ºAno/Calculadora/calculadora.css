@@ -1,0 +1,66 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .fundo{
+        background-image: linear-gradient(180deg,black,darkblue);
+        height: 100vh;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        }
+    .calculadora{
+        position: absolute;
+        background-image: url(https://aiuka.com.br/noticias/wp-content/uploads/2021/08/mailchimp_paciente_border.jpg);
+        background-size: 230%;
+        background-position: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 15px;
+        border: 30px;
+        border-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    
+        }
+    .botao{
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        cursor: pointer;
+        background-color: deepskyblue;
+        border-width: 4px;
+        border-color: aqua;
+        border-radius: 10px;
+        color: white;
+        opacity: 60%;
+        margin: 3px;
+        }
+    .botao:hover{
+            background-color: skyblue;
+        }
+    #resultado{
+        width: 207px;
+        height: 30px;
+        background-color: white;
+        opacity: 70%;
+        margin: 5px;
+        font-size: 20px;
+        color: black;
+        text-align: right;
+        padding: 5px;
+        }
+    .rodape{
+        background-color: blue;
+        position: fixed;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: large;
+        top: 95%;
+        }
+    .data{
+        background-color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: large;
+        font-style: italic;
+        }
